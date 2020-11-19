@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setup(
     name='dingdingrobot',
-    version='1.0.2',
+    version='1.0.3',
     keywords='dingding, dingtalk, robot, dingdingrobot, dingtalk-robot, dingtalk-webhook',
     description='send message to dingtalk robot',
     long_description=long_description,

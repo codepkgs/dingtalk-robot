@@ -49,16 +49,6 @@ pip install dingdingrobot
   # 支持的格式参考：https://ding-doc.dingtalk.com/document#/org-dev-guide/qf2nxq/9e91d73c
   ```
 
-* 发送图片
-
-  ```python
-  # 签名
-  dtrobot.send_image(image_path)
-
-  # image_path 支持 HTTP、HTTPS、FTP，互联网上的图片URL。也支持本地的图片路径。
-  # 如 dtrobot.send_image('https://img1.maka.im/template/T_G29KRHKN_t1.jpg')
-  ```
-
 * 发送 `link` 类型
 
   ```python
