@@ -24,7 +24,7 @@ pip install dingdingrobot
   key = '053e5481723dbe9b2e7765ece20118fa5963909d50f05ea6ae58214e9'
 
   import dingdingrobot
-  dtrobot = dingdingrobot.DingtalkRobot(key)
+  dtrobot = dingdingrobot.DingdingRobot(key)
   ```
 
 * 发送文本消息
