@@ -57,9 +57,9 @@ class DingdingRobot:
         at_mobiles_list, at_all = self._at_mobiles(at_mobiles)
         for content in contents:
             if content.startswith('>'):
-                send_contents += '\n' + content
-            else:
                 send_contents += '\n\n' + content
+            else:
+                send_contents += '\n' + content
 
         # 被 @ 的人单独一行
         send_contents += '\n\n'
